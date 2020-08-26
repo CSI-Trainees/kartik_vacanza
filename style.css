@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	height: 100vh;
+	background-image: url(images/background.png);
+	background-position:center;
+	background-size: cover}
+h1{
+	
+	margin-top: -740px;
+	font-size: 2em;
+	margin-left: 11px;
+	position: relative;
+
+
+}
+ a:-webkit-any-link {
+    text-decoration: none;
+}
+.logo{
+	color: black;
+}
+.header-text{
+
+    position: absolute;
+    margin-top: 457px;
+    margin-left: 311px;
+    margin-right: 311px;
+}
+.header-text-1 {
+    position: absolute;
+    margin-left: 635px;
+    margin-right: 320px;
+    margin-top: 154px;
+     animation: backspin 1s ease;
+}
+.header-text-1 img:hover{
+	animation: spin 1s ease;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg) scale(1);
+    } to { 
+        transform: rotate(720deg) scale(1.1); 
+    }
+}
+
+@keyframes backspin { 
+    from { 
+        transform: rotate(720deg) scale(1.1);
+    } to { 
+        transform: rotate(0deg) scale(1); 
+    }
+}

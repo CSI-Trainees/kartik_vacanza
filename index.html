@@ -6,15 +6,49 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<style>
+    a { color: black; } 
+  </style>
 	<section id=header></section>
 	<div class="container">
 		<h1><a href="https://csiakgec.in/"  target="_blank"class="logo" >CSI</a>
 
 		</h1>
+
 		<div >
 			<img  class="header-text-1 " src="images/logo.png" ><br>
 			<img class="header-text" src="images/vac.svg"></div>
-	</div>
+			
+			<button class="common-btn"><a href="#">REGISTER</a></button>
+			<button class="common-btn-1"><a href="#">START QUIZ</a></button>
 
+	</div>
+	<nav id="sideNav">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">ROUNDS</a></li>
+			<li><a href="#">QUIZZELS</a></li>
+
+		</ul>
+	</nav>
+	<img src="images/menu.png" id="menubtn">
+	<script >
+		var menubtn = document.getElementByID("menubtn");
+		var sideNav = document.getElementByID("sideNav");
+
+		sideNav.style.right="-250px";
+		menubtn.onclick = function(){
+		if (sideNav.style.right == "-250px") {
+			sideNav.style.right == "0";
+		}
+		else{
+			sideNav.style.right=="-250px";
+		}
+	}
+ 	</script>
+ 	
+
+	
+        
 </body>
 </html>

@@ -6,7 +6,9 @@
 	height: 100vh;
 	background-image: url(images/background.png);
 	background-position:center;
-	background-size: cover}
+	background-size: cover;
+    
+    }
 h1{
 	
 	margin-top: -740px;
@@ -16,8 +18,10 @@ h1{
 
 
 }
- a:-webkit-any-link {
-    text-decoration: none;
+
+a {
+  text-decoration: none; }
+ 
 }
 .logo{
 	color: black;
@@ -57,3 +61,67 @@ h1{
         transform: rotate(0deg) scale(1); 
     }
 }
+.common-btn{
+ padding: 0.6rem 1rem;
+  border-radius: 100px; 
+background: none;
+outline: none;
+border:3px solid black;
+font-weight:900;
+cursor: pointer;
+ margin-top: 598px;
+margin-left: 594px;
+opacity: 1;
+ font-size: 1.2rem
+}
+.common-btn-1{
+ padding: 0.6rem 1rem;
+  border-radius: 100px; 
+background: none;
+outline: none;
+border:3px solid black;
+font-weight:900;
+cursor: pointer;
+ margin-top: 598px;
+margin-left: 34px;
+opacity: 1;
+ font-size: 1.2rem
+}
+#sideNav{
+    width:250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top:0;
+    background: black;
+    z-index: 2;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#menubtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -137,7 +137,7 @@ nav ul li a{
 .cards{
     
     display: flex;
-    flex-direction: horizontal;
+    
     background: white;
     align-items: center;
     flex-wrap: wrap;
@@ -202,7 +202,7 @@ nav ul li a{
 .cards-1{
     
     display: flex;
-    flex-direction: horizontal;
+
     background: white;
     align-items: center;
     flex-wrap: wrap;
@@ -272,7 +272,7 @@ nav ul li a{
 .cards-3{
     
     display: flex;
-    flex-direction: horizontal;
+    
     background: white;
     align-items: center;
     flex-wrap: wrap;
@@ -332,8 +332,64 @@ nav ul li a{
     color: seashell;
     background: #004d40;
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #00695c;
+    height: 10rem;
+    overflow: hidden;
+}
+footer .footer-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/footer.png);
+    animation: scale 5s alternate infinite;
+}
+@keyframes scale{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(2);
+    }
+}
+.footer-logos{
+    position: absolute;
+    display: flex;
+    margin-top: 3rem;
+    border-bottom: 1px dotted white;
+}
 
+footer .copyright{
+    position: relative;
+    width: 100%;
+    background: #004d40;
+}
+footer .copyright h6{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 0.4rem;
+    color: #004d40;
+}
+.footer-logos ul li {
+    display: inline-block;
 
+}
+.footer-logos ul li a {
+    color: white;
+    
+}
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+    padding: 9px;
+}
+.fa-twitter:before {
+    content: "\f099";
+    padding: 9px;
+}
 
 
 

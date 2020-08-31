@@ -42,14 +42,29 @@ a {
     margin-right: 320px;
     margin-top: 154px;
 
-    transition:-webkit-transform 1.5s ; 
+    animation: backspin 1s ; 
      
 }
 
 
-.header-text-1:hover{
-    transform:rotate(720deg) translateZ(0) ;
-  
+.logo-rotate  img:hover{
+    animation: spin 1s ;
+    }
+
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg) scale(1);
+    } to { 
+        transform: rotate(720deg) scale(1.1); 
+    }
+}
+
+@keyframes backspin { 
+    from { 
+        transform: rotate(720deg) scale(1.1);
+    } to { 
+        transform: rotate(0deg) scale(1); 
+    }
 }
 
 .common-btn{

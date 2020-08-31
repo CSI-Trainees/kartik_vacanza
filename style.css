@@ -41,30 +41,15 @@ a {
     margin-left: 635px;
     margin-right: 320px;
     margin-top: 154px;
-    animation: backspin 1s ease;
+
+    transition:-webkit-transform 1.5s ; 
      
 }
 
 
-.logo-rotate img:hover{
-    animation: spin 1s ease;
-    animation-fill-mode: forwards;
-}
-
-@keyframes spin { 
-    from { 
-        transform: rotate(0deg) scale(1);
-    } to { 
-        transform: rotate(720deg) scale(1.1); 
-    }
-}
-
-@keyframes backspin { 
-    from { 
-        transform: rotate(720deg) scale(1.1);
-    } to { 
-        transform: rotate(0deg) scale(1); 
-    }
+.header-text-1:hover{
+    transform:rotate(720deg) translateZ(0) ;
+  
 }
 
 .common-btn{
@@ -348,10 +333,10 @@ footer .footer-img{
     animation: scale 5s alternate infinite;
 }
 @keyframes scale{
-    from{
+    0%{
         transform: scale(1);
     }
-    to{
+    100%{
         transform: scale(2);
     }
 }
@@ -372,7 +357,7 @@ footer .copyright h6{
     font-size: 0.8rem;
     font-weight: 400;
     padding: 0.4rem;
-    color: #004d40;
+    color: #FAFAFA;
 }
 .footer-logos ul li {
     display: inline-block;

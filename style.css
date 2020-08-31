@@ -77,8 +77,8 @@ font-weight:900;
 cursor: pointer;
  margin-top: 598px;
 margin-left: 594px;
-opacity: 1;
- font-size: 1.2rem
+
+ font-size: 1.2rem;
 }
 .common-btn-1{
  padding: 0.6rem 1rem;
@@ -90,7 +90,7 @@ font-weight:900;
 cursor: pointer;
  margin-top: 598px;
 margin-left: 34px;
-opacity: 1;
+
  font-size: 1.2rem
 }
 #sideNav{
